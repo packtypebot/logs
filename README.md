@@ -1,5 +1,3 @@
-#### 📝 Registro de Versões
-
 ### 🌟 Versão 5 - 25/02/2025
 
 ### 🔧 Correções de Bugs
