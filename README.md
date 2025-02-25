@@ -1,45 +1,45 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/packtypebot/imagens/logo.webp" alt="Project Logo" width="200">
-  <h1>🚀 Project Documentation</h1>
+  <img src="https://cdn.jsdelivr.net/gh/packtypebot/imagens/logo.webp" alt="Logo do Projeto" width="200">
+  <h1>🚀 Documentação do Projeto</h1>
 </div>
 
-# 📝 Version Log
+# 📝 Registro de Versões
 
-## 🌟 Version 5 - 25/02/2025
+## 🌟 Versão 5 - 25/02/2025
 
-### 🔧 Bug Fixes
+### 🔧 Correções de Bugs
 
-- 🔄 **Queue System Improvements**
-  - Fixed media sending in queue (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
-  - Fixed Contact typo in wbotMessageListener.ts
+- 🔄 **Melhorias no Sistema de Filas**
+  - Corrigido o envio de mídia na fila (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
+  - Corrigido erro de digitação em Contact no arquivo wbotMessageListener.ts
     ```
-    Line 2108: const body = `\u200e ${whatsapp.outOfHoursMessage}`;
+    Linha 2108: const body = `\u200e ${whatsapp.outOfHoursMessage}`;
     ```
 
-### 🎯 WHATICKET Queue System Enhancement
+### 🎯 Aprimoramento do Sistema de Filas WHATICKET
 
-- 🔄 Removed regex-based verification that blocked queue selection after invalid messages
-- ✨ Now accepts any valid numeric input regardless of previous bot messages
-- 📝 Invalid option messages now include the options list for retry
-- 📂 Updated file: `backend/src/services/WbotServices/wbotMessageListener.ts`
+- 🔄 Removida a verificação baseada em regex que bloqueava a seleção da fila após mensagens inválidas
+- ✨ Agora aceita qualquer entrada numérica válida, independentemente das mensagens anteriores do bot
+- 📝 Mensagens de opção inválida agora incluem a lista de opções para nova tentativa
+- 📂 Arquivo atualizado: `backend/src/services/WbotServices/wbotMessageListener.ts`
 
-### ✅ Major Improvements
+### ✅ Principais Melhorias
 
-- 🖥️ Fixed ticket area resizing issue
-- 🔔 Resolved toastError.js problems
-- 📱 Enhanced number validation in ContactModal
-- 🤖 Updated OpenAI to version "3.3.0"
-- ⭐ Corrected rating system from 1 to 5 stars
-- 📊 Implemented rating messages only for active tickets
-- ⏰ Added support for alternating schedules
-- 🎨 Dynamic logo switching based on Light/Dark theme
-- 📋 Kanban implementation and redesign
-- 🔊 Fixed iPhone audio playback issues
-- 🌙 Dark mode chat corrections
-- 📁 Implemented company-specific folders in "public"
+- 🖥️ Corrigido problema de redimensionamento da área de tickets
+- 🔔 Resolvido problemas no toastError.js
+- 📱 Aprimorada a validação de números no ContactModal
+- 🤖 Atualizado OpenAI para versão "3.3.0"
+- ⭐ Sistema de avaliação corrigido para 1 a 5 estrelas
+- 📊 Implementadas mensagens de avaliação apenas para tickets ativos
+- ⏰ Adicionado suporte para horários alternados
+- 🎨 Troca dinâmica de logo baseada no tema Claro/Escuro
+- 📋 Implementação e redesign do Kanban
+- 🔊 Corrigido problemas de reprodução de áudio no iPhone
+- 🌙 Correções no chat em modo escuro
+- 📁 Implementadas pastas específicas por empresa em "public"
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ for better user experience</p>
+  <p>Feito com ❤️ para uma melhor experiência do usuário</p>
 </div>
