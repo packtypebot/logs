@@ -1,27 +1,45 @@
-# 📝 Log de Versões
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/packtypebot/imagens/logo.webp" alt="Project Logo" width="200">
+  <h1>🚀 Project Documentation</h1>
+</div>
 
-## 🚀 Versão 5 - 25/02/2025
+# 📝 Version Log
 
-FIX: Envio de midia na fila (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
-FIX: ,Contact (Erro de digitação) "Linha 2108: const body = `\u200e ${whatsapp.outOfHoursMessage}`;" (wbotMessageListener.ts)
+## 🌟 Version 5 - 25/02/2025
 
-Correção do envio de fila WHATICKET:
+### 🔧 Bug Fixes
 
-Removemos a verificação baseada em regex que impedia a seleção de filas após uma mensagem inválida. Agora, qualquer entrada numérica válida é aceita, independente da última mensagem enviada pelo bot.
+- 🔄 **Queue System Improvements**
+  - Fixed media sending in queue (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
+  - Fixed Contact typo in wbotMessageListener.ts
+    ```
+    Line 2108: const body = `\u200e ${whatsapp.outOfHoursMessage}`;
+    ```
 
-Ao enviar a mensagem de opção inválida, incluímos novamente a lista de opções para que o usuário possa tentar novamente.
+### 🎯 WHATICKET Queue System Enhancement
 
-Arquivo: backend/src/services/WbotServices/wbotMessageListener.ts
+- 🔄 Removed regex-based verification that blocked queue selection after invalid messages
+- ✨ Now accepts any valid numeric input regardless of previous bot messages
+- 📝 Invalid option messages now include the options list for retry
+- 📂 Updated file: `backend/src/services/WbotServices/wbotMessageListener.ts`
 
-✅ Correção ao Redimensionar Área de Ticket: Erro corrigido ao redimensionar.  
-✅ Correção de toastError.js: Problema resolvido no `toastError.js`.  
-✅ Validação do Número no ContactModal: Validação aprimorada.  
-✅ Atualização OpenAI: Atualização para versão "openai": "3.3.0" e wbotMessageListener.ts.  
-✅ Correção nas Avaliações de 1 para 5: Ajuste nas avaliações de 1 a 5 estrelas.  
-✅ Mensagem de Avaliação Somente Quando o Ticket Estiver em Atendimento: Avaliações só aparecem quando o ticket está ativo.  
-✅ Horários Intercalados: Implementação de horários intercalados.  
-✅ Alteração de LOGO de Acordo com LIGHT e DARK: Logo ajustado conforme o tema.  
-✅ Inserido no Kanban e Reformulado
-✅ Fix Audio no iPhone (Não estava reproduzindo)
-✅ Correção Chat no modo Dark
-✅ Inserido pastas por empresas na "public"
+### ✅ Major Improvements
+
+- 🖥️ Fixed ticket area resizing issue
+- 🔔 Resolved toastError.js problems
+- 📱 Enhanced number validation in ContactModal
+- 🤖 Updated OpenAI to version "3.3.0"
+- ⭐ Corrected rating system from 1 to 5 stars
+- 📊 Implemented rating messages only for active tickets
+- ⏰ Added support for alternating schedules
+- 🎨 Dynamic logo switching based on Light/Dark theme
+- 📋 Kanban implementation and redesign
+- 🔊 Fixed iPhone audio playback issues
+- 🌙 Dark mode chat corrections
+- 📁 Implemented company-specific folders in "public"
+
+---
+
+<div align="center">
+  <p>Made with ❤️ for better user experience</p>
+</div>
