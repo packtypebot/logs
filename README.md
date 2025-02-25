@@ -1,11 +1,6 @@
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/packtypebot/imagens/logo.webp" alt="Logo do Projeto" width="200">
-  <h1>🚀 Documentação do Projeto</h1>
-</div>
+#### 📝 Registro de Versões
 
-# 📝 Registro de Versões
-
-## 🌟 Versão 5 - 25/02/2025
+### 🌟 Versão 5 - 25/02/2025
 
 ### 🔧 Correções de Bugs
 
@@ -38,8 +33,5 @@
 - 🌙 Correções no chat em modo escuro
 - 📁 Implementadas pastas específicas por empresa em "public"
 
----
 
-<div align="center">
-  <p>Feito com ❤️ para uma melhor experiência do usuário</p>
-</div>
+### Feito com ❤️ para uma melhor experiência do usuário
