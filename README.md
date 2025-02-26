@@ -1,5 +1,6 @@
 ### Versão 5 - 25/02/2025
 
+
 ### 🔧 Correções de Bugs
 
 🔄 **Melhorias no Sistema de Filas**
