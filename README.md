@@ -33,4 +33,5 @@
 - 📁 Implementadas pastas específicas por empresa em "public"
 
 
-### Feito com ❤️ para uma melhor experiência do usuário
+### Copyright © 2025 Pack Typebot
+Feito com ❤️ para uma melhor experiência do usuário
