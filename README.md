@@ -1,18 +1,18 @@
 ### Versão 5.0
 
-### 🔧 Correções de Bugs
+## 🔧 Correções de Bugs
 
 🔄 **Melhorias no Sistema de Filas**
 Corrigido o envio de mídia na fila (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
 Corrigido erro de digitação em Contact no arquivo wbotMessageListener.ts
 
-### 🎯 Aprimoramento do Sistema de Filas WHATICKET
+## 🎯 Aprimoramento do Sistema de Filas WHATICKET
 
 🔄 Removida a verificação baseada em regex que bloqueava a seleção da fila após mensagens inválidas
 ✨ Agora aceita qualquer entrada numérica válida, independentemente das mensagens anteriores do bot
 📝 Mensagens de opção inválida agora incluem a lista de opções para nova tentativa
 
-### ✅ Principais Melhorias
+## ✅ Principais Melhorias
 
 🖥️ Corrigido problema de redimensionamento da área de tickets
 🔔 Resolvido problemas no toastError.js
