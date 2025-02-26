@@ -1,5 +1,4 @@
-### Versão 5
-25/02/2025 - 22:50
+### Versão 5.0
 
 ### 🔧 Correções de Bugs
 
@@ -7,14 +6,11 @@
 Corrigido o envio de mídia na fila (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
 Corrigido erro de digitação em Contact no arquivo wbotMessageListener.ts
 
-Linha 2108: const body = `\u200e ${whatsapp.outOfHoursMessage}`
-
 ### 🎯 Aprimoramento do Sistema de Filas WHATICKET
 
 🔄 Removida a verificação baseada em regex que bloqueava a seleção da fila após mensagens inválidas
 ✨ Agora aceita qualquer entrada numérica válida, independentemente das mensagens anteriores do bot
 📝 Mensagens de opção inválida agora incluem a lista de opções para nova tentativa
-📂 Arquivo atualizado: `backend/src/services/WbotServices/wbotMessageListener.ts`
 
 ### ✅ Principais Melhorias
 
